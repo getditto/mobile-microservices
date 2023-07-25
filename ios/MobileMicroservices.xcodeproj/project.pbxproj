@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E3F266882A6F109A001D8AAF /* CloudOptionalServersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F266872A6F109A001D8AAF /* CloudOptionalServersApp.swift */; };
+		E3F266882A6F109A001D8AAF /* MobileMicroservicesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F266872A6F109A001D8AAF /* MobileMicroservicesApp.swift */; };
 		E3F2668A2A6F109A001D8AAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F266892A6F109A001D8AAF /* ContentView.swift */; };
 		E3F2668C2A6F109B001D8AAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3F2668B2A6F109B001D8AAF /* Assets.xcassets */; };
 		E3F2668F2A6F109B001D8AAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3F2668E2A6F109B001D8AAF /* Preview Assets.xcassets */; };
@@ -18,8 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E3F266842A6F109A001D8AAF /* CloudOptionalServers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudOptionalServers.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3F266872A6F109A001D8AAF /* CloudOptionalServersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudOptionalServersApp.swift; sourceTree = "<group>"; };
+		E3F266842A6F109A001D8AAF /* MobileMicroservices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileMicroservices.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3F266872A6F109A001D8AAF /* MobileMicroservicesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileMicroservicesApp.swift; sourceTree = "<group>"; };
 		E3F266892A6F109A001D8AAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E3F2668B2A6F109B001D8AAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3F2668E2A6F109B001D8AAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		E3F2667B2A6F109A001D8AAF = {
 			isa = PBXGroup;
 			children = (
-				E3F266862A6F109A001D8AAF /* CloudOptionalServers */,
+				E3F266862A6F109A001D8AAF /* MobileMicroservices */,
 				E3F266852A6F109A001D8AAF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,16 +52,16 @@
 		E3F266852A6F109A001D8AAF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E3F266842A6F109A001D8AAF /* CloudOptionalServers.app */,
+				E3F266842A6F109A001D8AAF /* MobileMicroservices.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E3F266862A6F109A001D8AAF /* CloudOptionalServers */ = {
+		E3F266862A6F109A001D8AAF /* MobileMicroservices */ = {
 			isa = PBXGroup;
 			children = (
 				E3F266972A6F3BE8001D8AAF /* Info.plist */,
-				E3F266872A6F109A001D8AAF /* CloudOptionalServersApp.swift */,
+				E3F266872A6F109A001D8AAF /* MobileMicroservicesApp.swift */,
 				E3F266892A6F109A001D8AAF /* ContentView.swift */,
 				E3F2668B2A6F109B001D8AAF /* Assets.xcassets */,
 				E3F2668D2A6F109B001D8AAF /* Preview Content */,
@@ -69,7 +69,7 @@
 				E3F266982A6F3CC1001D8AAF /* ExtensionMethods.swift */,
 				E3F2669D2A6FA45B001D8AAF /* WebView.swift */,
 			);
-			path = CloudOptionalServers;
+			path = MobileMicroservices;
 			sourceTree = "<group>";
 		};
 		E3F2668D2A6F109B001D8AAF /* Preview Content */ = {
@@ -83,9 +83,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E3F266832A6F109A001D8AAF /* CloudOptionalServers */ = {
+		E3F266832A6F109A001D8AAF /* MobileMicroservices */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3F266922A6F109B001D8AAF /* Build configuration list for PBXNativeTarget "CloudOptionalServers" */;
+			buildConfigurationList = E3F266922A6F109B001D8AAF /* Build configuration list for PBXNativeTarget "MobileMicroservices" */;
 			buildPhases = (
 				E3F266802A6F109A001D8AAF /* Sources */,
 				E3F266812A6F109A001D8AAF /* Frameworks */,
@@ -95,12 +95,12 @@
 			);
 			dependencies = (
 			);
-			name = CloudOptionalServers;
+			name = MobileMicroservices;
 			packageProductDependencies = (
 				E3F2669B2A6F502C001D8AAF /* Vapor */,
 			);
-			productName = CloudOptionalServers;
-			productReference = E3F266842A6F109A001D8AAF /* CloudOptionalServers.app */;
+			productName = MobileMicroservices;
+			productReference = E3F266842A6F109A001D8AAF /* MobileMicroservices.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +118,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E3F2667F2A6F109A001D8AAF /* Build configuration list for PBXProject "CloudOptionalServers" */;
+			buildConfigurationList = E3F2667F2A6F109A001D8AAF /* Build configuration list for PBXProject "MobileMicroservices" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -134,7 +134,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E3F266832A6F109A001D8AAF /* CloudOptionalServers */,
+				E3F266832A6F109A001D8AAF /* MobileMicroservices */,
 			);
 		};
 /* End PBXProject section */
@@ -160,7 +160,7 @@
 				E3F2669E2A6FA45B001D8AAF /* WebView.swift in Sources */,
 				E3F2668A2A6F109A001D8AAF /* ContentView.swift in Sources */,
 				E3F266992A6F3CC1001D8AAF /* ExtensionMethods.swift in Sources */,
-				E3F266882A6F109A001D8AAF /* CloudOptionalServersApp.swift in Sources */,
+				E3F266882A6F109A001D8AAF /* MobileMicroservicesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,11 +288,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CloudOptionalServers/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MobileMicroservices/Preview Content\"";
 				DEVELOPMENT_TEAM = 3T2VMFZPPQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CloudOptionalServers/Info.plist;
+				INFOPLIST_FILE = MobileMicroservices/Info.plist;
 				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "This app needs the local network access to discover other services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -304,7 +304,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = live.ditto.CloudOptionalServers;
+				PRODUCT_BUNDLE_IDENTIFIER = live.ditto.MobileMicroservices;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -319,11 +319,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CloudOptionalServers/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MobileMicroservices/Preview Content\"";
 				DEVELOPMENT_TEAM = 3T2VMFZPPQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CloudOptionalServers/Info.plist;
+				INFOPLIST_FILE = MobileMicroservices/Info.plist;
 				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "This app needs the local network access to discover other services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -335,7 +335,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = live.ditto.CloudOptionalServers;
+				PRODUCT_BUNDLE_IDENTIFIER = live.ditto.MobileMicroservices;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -346,7 +346,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E3F2667F2A6F109A001D8AAF /* Build configuration list for PBXProject "CloudOptionalServers" */ = {
+		E3F2667F2A6F109A001D8AAF /* Build configuration list for PBXProject "MobileMicroservices" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E3F266902A6F109B001D8AAF /* Debug */,
@@ -355,7 +355,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E3F266922A6F109B001D8AAF /* Build configuration list for PBXNativeTarget "CloudOptionalServers" */ = {
+		E3F266922A6F109B001D8AAF /* Build configuration list for PBXNativeTarget "MobileMicroservices" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E3F266932A6F109B001D8AAF /* Debug */,
