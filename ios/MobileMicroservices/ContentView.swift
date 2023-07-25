@@ -28,7 +28,7 @@ struct ContentView: View {
                     }
                 }
             }
-            .navigationTitle("Cloud Optional Servers")
+            .navigationTitle("MobileMicroservices")
             .navigationDestination(for: String.self) { url in
                 WebView(url: url)
             }

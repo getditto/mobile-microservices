@@ -50,10 +50,10 @@ class LocalNetworkManager: ObservableObject {
         
         // we don't want SwiftUI previews to participate
         if ProcessInfo.processInfo.environment["XCODE_RUNNING_FOR_PREVIEWS"] != "1" {
+            // only non-SwiftUI previews apps will hit these nodes
             listen()
             browse()
-            // let's setup an http server
-            
+            setupHTTPServer()
         }
         
     }
