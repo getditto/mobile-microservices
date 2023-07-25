@@ -2,6 +2,8 @@
 
 Ever wondered what it would be like to run HTTP servers at the edge, but the HTTP servers were mobile apps themselves? Also, they could talk to each other _even without an internet connection_. 
 
+This project shows off how you can turn mobile apps like an iPhone on the local area network into a _server_.
+
 
 ## iOS
 
