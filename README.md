@@ -2,8 +2,7 @@
 
 Ever wondered what it would be like to run HTTP servers at the edge, but the HTTP servers were mobile apps themselves? Also, they could talk to each other _even without an internet connection_. 
 
-This project shows off how you can turn mobile apps like an iPhone on the local area network into a _server_.
-
+This project shows off how you can turn mobile apps like an iPhone on the local area network into a _server_. This concept broadly introduces how developers can think of mobile devices as more than mere client devices, but also as intelligent, cloud-optional servers. For more information on a more out-of-the box solution see the [Ditto Platform](http://www.ditto.live)
 
 ## iOS
 
